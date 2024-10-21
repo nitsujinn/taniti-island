@@ -25,18 +25,5 @@
 ## Image Credits
 Images used in this project are provided by Pixabay. All photos are free for commercial use, with no attribution required, unless otherwise noted.
 
-## Responsive Design
-The website is designed to be responsive and should display properly on various devices and screen sizes.
 
-## Browser Compatibility
-The website is tested and should work on modern browsers including Chrome, Firefox, Safari, and Edge.
-
-## Future Improvements
-- Implement a content management system for easier updates
-- Add a booking system for accommodations and activities
-- Integrate a weather API for real-time weather information
-- Create a blog section for island news and events
-
-## Contact
-For any queries or support, please contact the Taniti Island Tourism Board at info@tanitiisland.com.
 
