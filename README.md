@@ -25,5 +25,3 @@
 ## Image Credits
 Images used in this project are provided by Pixabay. All photos are free for commercial use, with no attribution required, unless otherwise noted.
 
-
-
