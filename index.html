@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Taniti Island</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Taniti Island</div>
+                <div class="hamburger-menu">☰</div>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="accommodations.html"><i class="fas fa-bed"></i> Accommodations</a></li>
+                    <li><a href="dining.html"><i class="fas fa-utensils"></i> Dining</a></li>
+                    <li><a href="activities.html"><i class="fas fa-hiking"></i> Activities</a></li>
+                    <li><a href="transportation.html"><i class="fas fa-car"></i> Transportation</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('assets/hero-image.jpg');">
+            <div class="hero-content">
+                <h1>Welcome to Taniti Island</h1>
+                <p>Discover the hidden gem of the Pacific</p>
+                <a href="about.html" class="cta-button">Explore Taniti</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="quick-links">
+                <div class="quick-link-container">
+                    <a href="accommodations.html" class="quick-link">
+                        <i class="fas fa-bed"></i>
+                        <span>Find Accommodations</span>
+                    </a>
+                    <a href="activities.html" class="quick-link">
+                        <i class="fas fa-hiking"></i>
+                        <span>Discover Activities</span>
+                    </a>
+                    <a href="transportation.html" class="quick-link">
+                        <i class="fas fa-car"></i>
+                        <span>Plan Your Trip</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="about-preview">
+                <h2>About Taniti</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Taniti is a small, tropical island in the Pacific with lush rainforests, beautiful beaches, and a rich indigenous culture. Our island paradise offers:</p>
+                        <ul>
+                            <li>Pristine beaches and crystal-clear waters</li>
+                            <li>Lush tropical rainforests teeming with wildlife</li>
+                            <li>Rich cultural experiences and local traditions</li>
+                            <li>Exciting outdoor activities and adventures</li>
+                        </ul>
+                        <a href="about.html" class="learn-more">Learn More</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/about-taniti.jpg" alt="About Taniti Island">
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery-preview">
+                <h2>Island Highlights</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/beach.jpg" alt="Beautiful Beaches">
+                        <div class="gallery-caption">Beautiful Beaches</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/culture.jpg" alt="Rich Culture">
+                        <div class="gallery-caption">Rich Culture</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/activities.jpg" alt="Exciting Activities">
+                        <div class="gallery-caption">Exciting Activities</div>
+                    </div>
+                </div>
+                <a href="gallery.html" class="view-all">View All Photos</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@tanitiisland.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="accommodations.html">Accommodations</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2023 Taniti Island Tourism Board. All rights reserved.</p>
+            <p class="image-citation">Images provided by Pixabay. All photos are free for commercial use, with no attribution required, unless otherwise noted.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
